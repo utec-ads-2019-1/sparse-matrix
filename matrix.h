@@ -8,10 +8,10 @@ using namespace std;
 template <typename T>
 class Matrix {
 private:
-    Node<T> *root;
     unsigned rows, columns;
 
 public:
+    Matrix();
     Matrix(unsigned rows, unsigned columns);
 
     void set(unsigned, unsigned, T);
